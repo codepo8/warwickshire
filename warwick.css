@@ -1,0 +1,46 @@
+/*
+  Warwickshire info by Christian Heilmann
+  Homepage: http://isithackday.com/demos/warwickshire
+  Copyright (c)2010 Christian Heilmann
+  Code licensed under the BSD License:
+  http://wait-till-i.com/license.txt
+*/
+body.js .section ul{position:absolute;left:-9999px;height:10px;overflow:hidden;}
+body.js .show ul{position:relative;left:0;top:0;height:auto;overflow:auto;}
+.geo{display:none;}
+a{color:#369;}
+#hd{background:url(wcc_logo2005.gif) -10px 0 no-repeat;text-align:right;}
+h1{margin:0;color:#393;padding-left:130px;color:#000;font-size:140%;color:#393;padding-bottom:5px;padding-top:21px;font-family:calibri;}
+p.intro{padding-left:130px;font-size:90%}
+#ft{font-size:80%;text-align:right;}
+#map td{border:none;padding:0;}
+li.hasimg{overflow:hidden;position:relative;min-height:200px;}
+#libraries img,#parks img,#museums img{position:absolute;top:2.5em;left:10px;width:200px;-moz-box-shadow:2px 2px 2px rgba(0,0,0,.7)}
+#libraries p,#parks p,#schools p,#museums p{padding:0 0 5px 0;margin:0;}
+#doc li.hasimg p{padding-left:220px;}
+#map img.photo{width:200px;}
+#info p{margin:0;padding:0 0 2px 0;font-size:90%;}
+#info h3{margin:0;padding:0 0 2px 0;font-size:100%;font-weight:bold;}
+#parks,#libraries,#museums,#schools{margin:0;padding:0}
+#parks li,#libraries li,#schools li,#museums li{margin-bottom:10px;list-style:none;background:#ddd;-moz-border-radius:5px;padding:5px;border-radius:5px;-webkit-border-radius:5px;}
+h3{margin:0;padding:0 0 .5em 0;font-weight:normal}
+h3 a{color:#036;text-decoration:none;}
+.section h2{margin-bottom:10px;list-style:none;background:#036;color:#fff;font-size:110%;font-weight:normal;-moz-border-radius:5px;padding:5px;border-radius:5px;-webkit-border-radius:5px;}
+.section h2:hover{background:#369;cursor:pointer;}
+#size{border:none;background:#eee;width:746px;border-top:none;}
+#size:hover{background:#ffc;}
+.buttons{background:#eee;width:737px;padding:5px;text-align:right;}
+.buttons button{padding-left:32px;height:32px;padding:5px 5px 5px 32px;border:none;font-weight:bold;font-family:calibri;margin-left:5px;width:130px;-moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px;}
+.buttons button:hover{cursor:pointer;}
+#librariesbutton{background:url(library.png) top left no-repeat #fff;}
+#parksbutton{background:url(park.png) top left no-repeat #fff;}
+#schoolsbutton{background:url(school.png) top left no-repeat #fff;}
+#museumsbutton{background:url(museum.png) top left no-repeat #fff;}
+#bd .buttons button.inactive{color:#666;}
+body.js #container{border:1px solid #999;background:#eee;position:relative;}
+body.js #map{width:490px;height:280px;}
+body.js #info{position:absolute;top:45px;right:5px;width:239px;background:#ccc;padding:5px;-moz-border-radius:5px;padding:5px;border-radius:5px;-webkit-border-radius:5px;}
+body.js #info img{height:100px;}
+body.js #info.intro{background:#090;}
+body.js #info h2{color:#fff;margin:0;padding-bottom:.5em;}
+body.js #info.intro p{font-size:100%;margin:0;padding-bottom:.5em;}
